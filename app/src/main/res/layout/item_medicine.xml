@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/medicineName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicine Name"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/medicineDoses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doses: 60/63"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/issuedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Issued Date: 01/01/2023"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/expiryDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expiration Date: 01/01/2024"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/sideEffects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Side Effects: Nausea"
+        android:layout_marginBottom="8dp" />
+
+</LinearLayout>

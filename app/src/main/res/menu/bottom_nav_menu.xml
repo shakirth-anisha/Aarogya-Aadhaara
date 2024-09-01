@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/pills"
+        android:icon="@drawable/pills"
+        android:title="Pills" />
+
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/user"
+        android:title="User" />
+</menu>
